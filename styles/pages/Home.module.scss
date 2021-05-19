@@ -1,0 +1,41 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/pokemon-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    min-width: 1200px;
+  }
+  .navigation {
+    min-width: 1200px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    .searchInput {
+      width: 40rem;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+  .count {
+    margin-left: 5rem;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+}
